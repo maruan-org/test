@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: sleep 17
+      - run: sleep 10
 
   test:
     name: test
@@ -29,4 +29,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: sleep 16
+      - run: sleep 30
